@@ -1,0 +1,71 @@
+{
+  "name": "战役示例",
+  "cols": 20,
+  "rows": 12,
+  "obstacles": [
+    [9, 2], [10, 2], [11, 2],
+    [9, 9], [10, 9], [11, 9]
+  ],
+  "forests": [
+    [5, 1], [6, 1], [5, 10], [6, 10],
+    [14, 5], [14, 6]
+  ],
+  "buildings": [
+    [9, 5], [10, 5]
+  ],
+  "water": [
+    [9, 6], [10, 6]
+  ],
+  "roads": [
+    [2, 6], [3, 6], [4, 6], [5, 6], [6, 6], [7, 6], [8, 6],
+    [11, 6], [12, 6], [13, 6]
+  ],
+  "player_cols": [0, 1, 2, 3],
+  "ai_cols": [16, 17, 18, 19],
+  "player_points": 120,
+  "ai_points": 120,
+  "campaign": true,
+  "player_cells": [
+    [0,3],[0,4],[0,5],[0,6],[0,7],[0,8],
+    [1,3],[1,4],[1,5],[1,6],[1,7],[1,8],
+    [2,3],[2,4],[2,5],[2,6],[2,7],[2,8],
+    [3,3],[3,4],[3,5],[3,6],[3,7],[3,8]
+  ],
+  "ai_cells": [
+    [16,3],[16,4],[16,5],[16,6],[16,7],[16,8],
+    [17,3],[17,4],[17,5],[17,6],[17,7],[17,8],
+    [18,3],[18,4],[18,5],[18,6],[18,7],[18,8],
+    [19,3],[19,4],[19,5],[19,6],[19,7],[19,8]
+  ],
+  "units": [
+    { "team": "Player", "kind": "Tank", "col": 1, "row": 4 },
+    { "team": "Player", "kind": "Rifleman", "col": 1, "row": 5 },
+    { "team": "Player", "kind": "Atgm", "col": 1, "row": 6 },
+    { "team": "Player", "kind": "Howitzer", "col": 2, "row": 7 },
+    { "team": "Player", "kind": "AaInfantry", "col": 1, "row": 7 },
+    { "team": "Player", "kind": "AttackHeli", "col": 2, "row": 4 },
+    { "team": "Ai", "kind": "HeavyTank", "col": 18, "row": 4 },
+    { "team": "Ai", "kind": "Rifleman", "col": 18, "row": 5 },
+    { "team": "Ai", "kind": "Atgm", "col": 18, "row": 6 },
+    { "team": "Ai", "kind": "Howitzer", "col": 17, "row": 7 },
+    { "team": "Ai", "kind": "AaInfantry", "col": 18, "row": 7 },
+    { "team": "Ai", "kind": "AttackHeli", "col": 17, "row": 4 },
+    { "team": "Player", "kind": "Truck", "col": 0, "row": 3, "passengers": ["Rifleman", "Rifleman"] },
+    { "team": "Player", "kind": "TransportHeli", "col": 2, "row": 3, "passengers": ["SpecialForces"] },
+    { "team": "Ai", "kind": "Truck", "col": 19, "row": 3, "passengers": ["Supply"] },
+    { "team": "Ai", "kind": "HeavyTransportHeli", "col": 17, "row": 3, "passengers": ["HumveeHmg", "AaInfantry"] }
+  ],
+  "keypoints": [
+    { "team": "Player", "col": 2, "row": 5, "center": true },
+    { "team": "Player", "col": 1, "row": 8, "center": false },
+    { "team": "Player", "col": 3, "row": 6, "center": false },
+    { "team": "Ai", "col": 17, "row": 5, "center": true },
+    { "team": "Ai", "col": 18, "row": 8, "center": false },
+    { "team": "Ai", "col": 16, "row": 6, "center": false }
+  ],
+  "player_income": 10,
+  "ai_income": 10,
+  "turn_limit": 20,
+  "player_victory": { "mode": "capture_all_before_turn", "turn": 12 },
+  "ai_victory": { "mode": "hold_any_at_end" }
+}
