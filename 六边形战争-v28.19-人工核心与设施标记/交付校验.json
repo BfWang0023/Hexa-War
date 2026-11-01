@@ -1,0 +1,11 @@
+{
+  "outputAppSignatureValid": true,
+  "zipSignatureValid": true,
+  "mismatches": [],
+  "verifiedWebFiles": 330,
+  "sha256": {
+    "古代战役-v02-macOS.zip": "2b7f1217a78437a1e6704c6f7b482be343d4bd1176bddc3dd6d2e07b84a45ba0",
+    "六边形战争-v28.19-人工核心与设施标记源码.zip": "4e72e9da551b290713a5bd57e45bdb0ceb9fcfa1408b869b9e086f9536eefc1d"
+  },
+  "excludedCredentialFiles": 1
+}
