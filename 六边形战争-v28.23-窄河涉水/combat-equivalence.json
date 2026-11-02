@@ -1,0 +1,29 @@
+{
+  "passed": true,
+  "rows": [
+    {
+      "kind": "light",
+      "preview": 23,
+      "actual": 23,
+      "remaining": 0
+    },
+    {
+      "kind": "heavy",
+      "preview": 27,
+      "actual": 27,
+      "remaining": 0
+    },
+    {
+      "kind": "cavalry",
+      "preview": 27,
+      "actual": 27,
+      "remaining": 0
+    },
+    {
+      "kind": "chinaHeavyChariot",
+      "preview": 59,
+      "actual": 59,
+      "remaining": 0
+    }
+  ]
+}

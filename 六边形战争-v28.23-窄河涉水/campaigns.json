@@ -1,0 +1,363 @@
+{
+  "loaded": 89,
+  "riverCellsChecked": 3551,
+  "totalAuditMs": 1568.8479169999998,
+  "rows": [
+    {
+      "id": "china_mingtiao",
+      "shallowCells": 0
+    },
+    {
+      "id": "megiddo",
+      "shallowCells": 79
+    },
+    {
+      "id": "kadesh",
+      "shallowCells": 80
+    },
+    {
+      "id": "troy",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_muye",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_three_guards",
+      "shallowCells": 39
+    },
+    {
+      "id": "china_zhou_xu",
+      "shallowCells": 108
+    },
+    {
+      "id": "qarqar",
+      "shallowCells": 82
+    },
+    {
+      "id": "china_xuge",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_hongshui",
+      "shallowCells": 86
+    },
+    {
+      "id": "china_chengpu",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_xiao",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_bi",
+      "shallowCells": 6
+    },
+    {
+      "id": "china_yanling",
+      "shallowCells": 12
+    },
+    {
+      "id": "babylon",
+      "shallowCells": 144
+    },
+    {
+      "id": "china_boju",
+      "shallowCells": 82
+    },
+    {
+      "id": "china_zuili",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_guiji",
+      "shallowCells": 0
+    },
+    {
+      "id": "marathon",
+      "shallowCells": 3
+    },
+    {
+      "id": "salamis",
+      "shallowCells": 0
+    },
+    {
+      "id": "thermopylae",
+      "shallowCells": 0
+    },
+    {
+      "id": "plataea",
+      "shallowCells": 71
+    },
+    {
+      "id": "china_yue_wu",
+      "shallowCells": 78
+    },
+    {
+      "id": "china_jin_partition",
+      "shallowCells": 155
+    },
+    {
+      "id": "sphacteria",
+      "shallowCells": 0
+    },
+    {
+      "id": "delium",
+      "shallowCells": 0
+    },
+    {
+      "id": "amphipolis",
+      "shallowCells": 43
+    },
+    {
+      "id": "mantinea",
+      "shallowCells": 0
+    },
+    {
+      "id": "sicily_413",
+      "shallowCells": 34
+    },
+    {
+      "id": "china_wei_zhongshan",
+      "shallowCells": 0
+    },
+    {
+      "id": "aegospotami",
+      "shallowCells": 0
+    },
+    {
+      "id": "coronea_394",
+      "shallowCells": 42
+    },
+    {
+      "id": "china_hexi_second",
+      "shallowCells": 86
+    },
+    {
+      "id": "leuctra",
+      "shallowCells": 0
+    },
+    {
+      "id": "mantinea_362",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_guiling",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_maling",
+      "shallowCells": 0
+    },
+    {
+      "id": "chaeronea",
+      "shallowCells": 71
+    },
+    {
+      "id": "granicus",
+      "shallowCells": 44
+    },
+    {
+      "id": "issus",
+      "shallowCells": 60
+    },
+    {
+      "id": "tyre",
+      "shallowCells": 0
+    },
+    {
+      "id": "gaugamela",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_hexi_third",
+      "shallowCells": 84
+    },
+    {
+      "id": "hydaspes",
+      "shallowCells": 88
+    },
+    {
+      "id": "china_alliance_qin",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_qin_bashu",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_qi_yan",
+      "shallowCells": 84
+    },
+    {
+      "id": "china_lantian",
+      "shallowCells": 86
+    },
+    {
+      "id": "ipsus",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_chui_sha",
+      "shallowCells": 86
+    },
+    {
+      "id": "china_yique",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_qi_song",
+      "shallowCells": 84
+    },
+    {
+      "id": "china_alliance_qi",
+      "shallowCells": 86
+    },
+    {
+      "id": "heraclea",
+      "shallowCells": 44
+    },
+    {
+      "id": "china_tian_dan",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_yan_ying",
+      "shallowCells": 92
+    },
+    {
+      "id": "china_eyu",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_changping",
+      "shallowCells": 98
+    },
+    {
+      "id": "china_handan",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_qin_zhao",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_qin_chu",
+      "shallowCells": 98
+    },
+    {
+      "id": "raphia",
+      "shallowCells": 0
+    },
+    {
+      "id": "cannae",
+      "shallowCells": 4
+    },
+    {
+      "id": "syracuse",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_dingtao",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_julu",
+      "shallowCells": 43
+    },
+    {
+      "id": "china_three_qin",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_pengcheng",
+      "shallowCells": 43
+    },
+    {
+      "id": "china_puban",
+      "shallowCells": 43
+    },
+    {
+      "id": "china_jingxing",
+      "shallowCells": 42
+    },
+    {
+      "id": "zama",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_gaixia",
+      "shallowCells": 0
+    },
+    {
+      "id": "cynoscephalae",
+      "shallowCells": 0
+    },
+    {
+      "id": "magnesia",
+      "shallowCells": 71
+    },
+    {
+      "id": "pydna",
+      "shallowCells": 49
+    },
+    {
+      "id": "china_seven_states",
+      "shallowCells": 43
+    },
+    {
+      "id": "carthage",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_mayi",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_hexi",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_mobei",
+      "shallowCells": 0
+    },
+    {
+      "id": "china_dayuan",
+      "shallowCells": 44
+    },
+    {
+      "id": "carrhae",
+      "shallowCells": 0
+    },
+    {
+      "id": "alesia",
+      "shallowCells": 0
+    },
+    {
+      "id": "pharsalus",
+      "shallowCells": 68
+    },
+    {
+      "id": "actium",
+      "shallowCells": 0
+    },
+    {
+      "id": "teutoburg",
+      "shallowCells": 6
+    },
+    {
+      "id": "china_kunyang",
+      "shallowCells": 43
+    },
+    {
+      "id": "china_longxi",
+      "shallowCells": 19
+    },
+    {
+      "id": "jerusalem",
+      "shallowCells": 0
+    }
+  ]
+}

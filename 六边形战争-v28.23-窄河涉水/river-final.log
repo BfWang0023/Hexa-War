@@ -1,0 +1,142 @@
+TAP version 13
+# Subtest: 1-hex river: cost, preview and actual entry agree
+ok 1 - 1-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 9.204292
+  type: 'test'
+  ...
+# Subtest: 2-hex river: cost, preview and actual entry agree
+ok 2 - 2-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 2.221584
+  type: 'test'
+  ...
+# Subtest: 3-hex river: cost, preview and actual entry agree
+ok 3 - 3-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 2.163
+  type: 'test'
+  ...
+# Subtest: 4-hex river: cost, preview and actual entry agree
+ok 4 - 4-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 1.684958
+  type: 'test'
+  ...
+# Subtest: 8-hex river: cost, preview and actual entry agree
+ok 5 - 8-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 1.242
+  type: 'test'
+  ...
+# Subtest: two-hex river crosses by legal consecutive turns, with no free leap across water
+ok 6 - two-hex river crosses by legal consecutive turns, with no free leap across water
+  ---
+  duration_ms: 4.881417
+  type: 'test'
+  ...
+# Subtest: light: shallow water matches explicit ford movement
+ok 7 - light: shallow water matches explicit ford movement
+  ---
+  duration_ms: 3.210125
+  type: 'test'
+  ...
+# Subtest: heavy: shallow water matches explicit ford movement
+ok 8 - heavy: shallow water matches explicit ford movement
+  ---
+  duration_ms: 2.887
+  type: 'test'
+  ...
+# Subtest: cavalry: shallow water matches explicit ford movement
+ok 9 - cavalry: shallow water matches explicit ford movement
+  ---
+  duration_ms: 3.16975
+  type: 'test'
+  ...
+# Subtest: chariot: shallow water matches explicit ford movement
+ok 10 - chariot: shallow water matches explicit ford movement
+  ---
+  duration_ms: 2.286291
+  type: 'test'
+  ...
+# Subtest: warElephant: shallow water matches explicit ford movement
+ok 11 - warElephant: shallow water matches explicit ford movement
+  ---
+  duration_ms: 1.841375
+  type: 'test'
+  ...
+# Subtest: siegeRam: shallow water matches explicit ford movement
+ok 12 - siegeRam: shallow water matches explicit ford movement
+  ---
+  duration_ms: 1.337584
+  type: 'test'
+  ...
+# Subtest: scout: shallow water matches explicit ford movement
+ok 13 - scout: shallow water matches explicit ford movement
+  ---
+  duration_ms: 3.422166
+  type: 'test'
+  ...
+# Subtest: chinaHeavyChariot: shallow water matches explicit ford movement
+ok 14 - chinaHeavyChariot: shallow water matches explicit ford movement
+  ---
+  duration_ms: 2.240125
+  type: 'test'
+  ...
+# Subtest: supplyWagon: shallow water matches explicit ford movement
+ok 15 - supplyWagon: shallow water matches explicit ford movement
+  ---
+  duration_ms: 1.613125
+  type: 'test'
+  ...
+# Subtest: three-plus river still supports existing ford and intact bridge; bridge demolition retains ford
+ok 16 - three-plus river still supports existing ford and intact bridge; bridge demolition retains ford
+  ---
+  duration_ms: 2.311667
+  type: 'test'
+  ...
+# Subtest: sea, map boundary and unknown land never become inferred banks
+ok 17 - sea, map boundary and unknown land never become inferred banks
+  ---
+  duration_ms: 0.60925
+  type: 'test'
+  ...
+# Subtest: new river map/save persists opt-in; old save does not silently gain wading
+ok 18 - new river map/save persists opt-in; old save does not silently gain wading
+  ---
+  duration_ms: 5.577125
+  type: 'test'
+  ...
+# Subtest: AI and delegation path planning crosses shallow river but requires a ford in wide water
+ok 19 - AI and delegation path planning crosses shallow river but requires a ford in wide water
+  ---
+  duration_ms: 6.490167
+  type: 'test'
+  ...
+# Subtest: tile information reports confirmed narrow width without modifying map terrain
+ok 20 - tile information reports confirmed narrow width without modifying map terrain
+  ---
+  duration_ms: 0.951375
+  type: 'test'
+  ...
+# Subtest: three hex axes, both banks and both factions use the same width rule
+ok 21 - three hex axes, both banks and both factions use the same width rule
+  ---
+  duration_ms: 2.923875
+  type: 'test'
+  ...
+# Subtest: editor width changes recalculate immediately, with undo/redo and map roundtrip
+ok 22 - editor width changes recalculate immediately, with undo/redo and map roundtrip
+  ---
+  duration_ms: 4.881875
+  type: 'test'
+  ...
+1..22
+# tests 22
+# suites 0
+# pass 22
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 150.336209

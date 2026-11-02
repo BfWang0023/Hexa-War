@@ -1,0 +1,33 @@
+{
+  "errors": [],
+  "cases": [
+    {
+      "width": 1,
+      "c": 8,
+      "r": 7,
+      "actions": 0,
+      "terrain": 4
+    },
+    {
+      "width": 2,
+      "c": 8,
+      "r": 7,
+      "actions": 0,
+      "terrain": 4
+    },
+    {
+      "width": 3,
+      "c": 7,
+      "r": 7,
+      "actions": 2,
+      "terrain": 4
+    },
+    {
+      "width": 4,
+      "c": 7,
+      "r": 7,
+      "actions": 2,
+      "terrain": 4
+    }
+  ]
+}

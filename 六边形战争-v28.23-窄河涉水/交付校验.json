@@ -1,0 +1,11 @@
+{
+  "outputAppSignatureValid": true,
+  "zipSignatureValid": true,
+  "mismatches": [],
+  "verifiedWebFiles": 340,
+  "sha256": {
+    "古代战役-v02-macOS.zip": "28eb549e0d663050edd45d8797adb90043445f5ca6df5480cab3c311b32c78b8",
+    "六边形战争-v28.23-窄河涉水源码.zip": "18abe4106f4e4211bfecdcc16bf047c366897149cd0b5f5a858042723cdbac4d"
+  },
+  "excludedCredentialFiles": 1
+}
