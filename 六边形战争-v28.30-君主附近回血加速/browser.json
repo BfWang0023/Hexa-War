@@ -1,0 +1,15 @@
+{
+  "errors": [],
+  "cases": [
+    {
+      "distance": 3,
+      "from": 20,
+      "to": 35
+    },
+    {
+      "distance": 4,
+      "from": 20,
+      "to": 30
+    }
+  ]
+}
