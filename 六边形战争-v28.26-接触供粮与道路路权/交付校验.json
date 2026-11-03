@@ -1,0 +1,12 @@
+{
+  "verifiedAppLocation": "fresh extraction from delivery ZIP",
+  "outputAppSignatureValid": true,
+  "zipSignatureValid": true,
+  "mismatches": [],
+  "verifiedWebFiles": 343,
+  "sha256": {
+    "古代战役-v02-macOS.zip": "14bdf999056b3cd29001a9ba5a3c4a29fe1b98597583ac6adbbbbb20e12e1b7a",
+    "六边形战争-v28.26-接触供粮与道路路权源码.zip": "97e3337c1b4a835525e5c6f10f4f3c8ca01682689b87ac8a9012a65daeb42235"
+  },
+  "excludedCredentialFiles": 1
+}

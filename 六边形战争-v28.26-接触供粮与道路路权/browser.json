@@ -1,0 +1,222 @@
+{
+  "errors": [],
+  "cases": [
+    {
+      "mode": "supply",
+      "start": {
+        "unit": {
+          "c": 5,
+          "r": 6,
+          "ap": 2,
+          "hunger": 2,
+          "fed": 0
+        },
+        "cart": {
+          "c": 8,
+          "r": 6,
+          "ap": 2,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0
+        }
+      },
+      "result": {
+        "unit": {
+          "c": 6,
+          "r": 6,
+          "ap": 1,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 6,
+          "ap": 2,
+          "food": 115
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0.10000002384185791
+        }
+      }
+    },
+    {
+      "mode": "road",
+      "start": {
+        "unit": {
+          "c": 7,
+          "r": 6,
+          "ap": 2,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 6,
+          "ap": 2,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0
+        }
+      },
+      "result": {
+        "unit": {
+          "c": 9,
+          "r": 6,
+          "ap": 1,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 7,
+          "r": 5,
+          "ap": 1,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0.20000004768371582
+        }
+      }
+    },
+    {
+      "mode": "river",
+      "start": {
+        "unit": {
+          "c": 7,
+          "r": 6,
+          "ap": 2,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 10,
+          "ap": 1,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0.30000007152557373
+        }
+      },
+      "result": {
+        "unit": {
+          "c": 7,
+          "r": 6,
+          "ap": 2,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 10,
+          "ap": 1,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0.10000002384185791
+        }
+      }
+    },
+    {
+      "mode": "river-bridge",
+      "start": {
+        "unit": {
+          "c": 7,
+          "r": 6,
+          "ap": 2,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 10,
+          "ap": 1,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0
+        }
+      },
+      "result": {
+        "unit": {
+          "c": 8,
+          "r": 6,
+          "ap": 1,
+          "hunger": 0,
+          "fed": 3
+        },
+        "cart": {
+          "c": 8,
+          "r": 10,
+          "ap": 1,
+          "food": 120
+        },
+        "hud": {
+          "units": 3,
+          "drawn": 3,
+          "full": 2,
+          "compact": 1,
+          "far": 0,
+          "aggregated": 0,
+          "elapsedMs": 0
+        }
+      }
+    }
+  ],
+  "largeHud": {
+    "totalUnits": 283,
+    "meanHudMs": 0.7088888857099745,
+    "last": {
+      "units": 185,
+      "drawn": 81,
+      "full": 1,
+      "compact": 0,
+      "far": 80,
+      "aggregated": 50,
+      "elapsedMs": 0.6999999284744263
+    }
+  }
+}

@@ -1,0 +1,610 @@
+TAP version 13
+# Subtest: soldier contact instantly issues real carried food once
+ok 1 - soldier contact instantly issues real carried food once
+  ---
+  duration_ms: 22.933584
+  type: 'test'
+  ...
+# Subtest: wagon contact instantly issues real carried food once
+ok 2 - wagon contact instantly issues real carried food once
+  ---
+  duration_ms: 6.78175
+  type: 'test'
+  ...
+# Subtest: passing through supply range feeds even when both endpoints are outside range
+ok 3 - passing through supply range feeds even when both endpoints are outside range
+  ---
+  duration_ms: 8.750667
+  type: 'test'
+  ...
+# Subtest: end of own turn checks contact again without advancing hunger twice
+ok 4 - end of own turn checks contact again without advancing hunger twice
+  ---
+  duration_ms: 7.067
+  type: 'test'
+  ...
+# Subtest: contact respects actual food, scouts, enemy teams and ordinary non-supply battles
+ok 5 - contact respects actual food, scouts, enemy teams and ordinary non-supply battles
+  ---
+  duration_ms: 11.655459
+  type: 'test'
+  ...
+# Subtest: four existing logistics campaigns expose a real hunger bar; scouts and normal battles do not
+ok 6 - four existing logistics campaigns expose a real hunger bar; scouts and normal battles do not
+  ---
+  duration_ms: 464.325666
+  type: 'test'
+  ...
+# Subtest: contact food and hunger survive save restore without repeat debiting
+ok 7 - contact food and hunger survive save restore without repeat debiting
+  ---
+  duration_ms: 459.804625
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 0 pays the lower cart action
+ok 8 - head-on road yield row 6 direction 0 pays the lower cart action
+  ---
+  duration_ms: 15.071875
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 1 pays the lower cart action
+ok 9 - head-on road yield row 6 direction 1 pays the lower cart action
+  ---
+  duration_ms: 8.103792
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 2 pays the lower cart action
+ok 10 - head-on road yield row 6 direction 2 pays the lower cart action
+  ---
+  duration_ms: 10.075042
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 3 pays the lower cart action
+ok 11 - head-on road yield row 6 direction 3 pays the lower cart action
+  ---
+  duration_ms: 7.208917
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 4 pays the lower cart action
+ok 12 - head-on road yield row 6 direction 4 pays the lower cart action
+  ---
+  duration_ms: 6.984958
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 6 direction 5 pays the lower cart action
+ok 13 - head-on road yield row 6 direction 5 pays the lower cart action
+  ---
+  duration_ms: 7.487625
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 0 pays the lower cart action
+ok 14 - head-on road yield row 7 direction 0 pays the lower cart action
+  ---
+  duration_ms: 5.719458
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 1 pays the lower cart action
+ok 15 - head-on road yield row 7 direction 1 pays the lower cart action
+  ---
+  duration_ms: 5.516791
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 2 pays the lower cart action
+ok 16 - head-on road yield row 7 direction 2 pays the lower cart action
+  ---
+  duration_ms: 7.860834
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 3 pays the lower cart action
+ok 17 - head-on road yield row 7 direction 3 pays the lower cart action
+  ---
+  duration_ms: 6.800084
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 4 pays the lower cart action
+ok 18 - head-on road yield row 7 direction 4 pays the lower cart action
+  ---
+  duration_ms: 5.114459
+  type: 'test'
+  ...
+# Subtest: head-on road yield row 7 direction 5 pays the lower cart action
+ok 19 - head-on road yield row 7 direction 5 pays the lower cart action
+  ---
+  duration_ms: 6.918125
+  type: 'test'
+  ...
+# Subtest: front-bound cart has priority over returning cart, but never over soldiers
+ok 20 - front-bound cart has priority over returning cart, but never over soldiers
+  ---
+  duration_ms: 5.3185
+  type: 'test'
+  ...
+# Subtest: no free yielding with zero actions, same direction, enemy, no shoulder or equal priority
+ok 21 - no free yielding with zero actions, same direction, enemy, no shoulder or equal priority
+  ---
+  duration_ms: 11.629917
+  type: 'test'
+  ...
+# Subtest: delegated planning can request legal paid yielding without changing six-neighbor topology
+ok 22 - delegated planning can request legal paid yielding without changing six-neighbor topology
+  ---
+  duration_ms: 5.719125
+  type: 'test'
+  ...
+# Subtest: fourteen Qin, Chu, Western and Eastern Han episodes have playable distinct maps
+ok 23 - fourteen Qin, Chu, Western and Eastern Han episodes have playable distinct maps
+  ---
+  duration_ms: 696.622167
+  type: 'test'
+  ...
+# Subtest: only the specified four large campaigns use fiscal logistics
+ok 24 - only the specified four large campaigns use fiscal logistics
+  ---
+  duration_ms: 53.927459
+  type: 'test'
+  ...
+# Subtest: Qin and Han maps show their separate tactical routes, camps and river crossings
+ok 25 - Qin and Han maps show their separate tactical routes, camps and river crossings
+  ---
+  duration_ms: 42.93125
+  type: 'test'
+  ...
+# Subtest: Kunyang expands Wang Yi’s army while keeping Liu Xiu’s relief and city garrison
+ok 26 - Kunyang expands Wang Yi’s army while keeping Liu Xiu’s relief and city garrison
+  ---
+  duration_ms: 2.715792
+  type: 'test'
+  ...
+# Subtest: Kunyang meteors fall every second round at thirty unique sites and damage Wang siege engines 1.5 times
+ok 27 - Kunyang meteors fall every second round at thirty unique sites and damage Wang siege engines 1.5 times
+  ---
+  duration_ms: 231.345833
+  type: 'test'
+  ...
+# Subtest: Kunyang city uses level-three walls while the surrounding Wang camps stay level one
+ok 28 - Kunyang city uses level-three walls while the surrounding Wang camps stay level one
+  ---
+  duration_ms: 3.393375
+  type: 'test'
+  ...
+# Subtest: Kunyang, Changping and Qin versus Chu do not end on camp capture, commander death, or deadline
+ok 29 - Kunyang, Changping and Qin versus Chu do not end on camp capture, commander death, or deadline
+  ---
+  duration_ms: 677.355125
+  type: 'test'
+  ...
+# Subtest: Wang Mang wins Kunyang by occupying the city on generated and edited maps
+ok 30 - Wang Mang wins Kunyang by occupying the city on generated and edited maps
+  ---
+  duration_ms: 112.986625
+  type: 'test'
+  ...
+# Subtest: central treasury leads in the four logistics campaigns, including edited maps and old saves
+ok 31 - central treasury leads in the four logistics campaigns, including edited maps and old saves
+  ---
+  duration_ms: 1133.337333
+  type: 'test'
+  ...
+# Subtest: edited Changping and Qin versus Chu maps cannot win by holding out to the old deadline
+ok 32 - edited Changping and Qin versus Chu maps cannot win by holding out to the old deadline
+  ---
+  duration_ms: 386.998833
+  type: 'test'
+  ...
+# Subtest: all Qin and Han river battles include fast bridges over fords and a separate slow crossing
+ok 33 - all Qin and Han river battles include fast bridges over fords and a separate slow crossing
+  ---
+  duration_ms: 291.872333
+  type: 'test'
+  ...
+# Subtest: supply wagon clears hunger and refills three turns for an ordinary soldier
+ok 34 - supply wagon clears hunger and refills three turns for an ordinary soldier
+  ---
+  duration_ms: 60.135084
+  type: 'test'
+  ...
+# Subtest: five full hunger turns rout soldiers; a raid cuts recruitment until the route is safe
+ok 35 - five full hunger turns rout soldiers; a raid cuts recruitment until the route is safe
+  ---
+  duration_ms: 71.520041
+  type: 'test'
+  ...
+# Subtest: starting convoy relays reach most formations and one ration feeds four soldiers
+ok 36 - starting convoy relays reach most formations and one ration feeds four soldiers
+  ---
+  duration_ms: 285.687583
+  type: 'test'
+  ...
+# Subtest: food relays beyond two hexes through adjacent soldiers and stops at gaps or empty carts
+ok 37 - food relays beyond two hexes through adjacent soldiers and stops at gaps or empty carts
+  ---
+  duration_ms: 114.297875
+  type: 'test'
+  ...
+# Subtest: unfed soldiers gain one hunger only every two own turns
+ok 38 - unfed soldiers gain one hunger only every two own turns
+  ---
+  duration_ms: 161.956292
+  type: 'test'
+  ...
+# Subtest: an ordinary soldier carries three full turns of food before hunger starts
+ok 39 - an ordinary soldier carries three full turns of food before hunger starts
+  ---
+  duration_ms: 73.926834
+  type: 'test'
+  ...
+# Subtest: only designated elite rear raiders carry and refill ten turns of food
+ok 40 - only designated elite rear raiders carry and refill ten turns of food
+  ---
+  duration_ms: 219.388125
+  type: 'test'
+  ...
+# Subtest: version-three supply saves receive extra wagons and recovery rations
+ok 41 - version-three supply saves receive extra wagons and recovery rations
+  ---
+  duration_ms: 50.590167
+  type: 'test'
+  ...
+# Subtest: version-four supply saves receive current three-turn rations
+ok 42 - version-four supply saves receive current three-turn rations
+  ---
+  duration_ms: 41.7825
+  type: 'test'
+  ...
+# Subtest: version-five saves clamp regular food and restore designated rear raiders
+ok 43 - version-five saves clamp regular food and restore designated rear raiders
+  ---
+  duration_ms: 38.373583
+  type: 'test'
+  ...
+# Subtest: melee and ranged takedowns both capture enemy wagon and its remaining food
+ok 44 - melee and ranged takedowns both capture enemy wagon and its remaining food
+  ---
+  duration_ms: 79.507667
+  type: 'test'
+  ...
+# Subtest: computer soldiers and convoys join a nearby fast road while advancing
+ok 45 - computer soldiers and convoys join a nearby fast road while advancing
+  ---
+  duration_ms: 166.460625
+  type: 'test'
+  ...
+# Subtest: supply wagons travel slowly on river and sea without spending travel grain
+ok 46 - supply wagons travel slowly on river and sea without spending travel grain
+  ---
+  duration_ms: 74.494709
+  type: 'test'
+  ...
+# Subtest: supply wagons cross fords and bridges at normal road speed
+ok 47 - supply wagons cross fords and bridges at normal road speed
+  ---
+  duration_ms: 87.182291
+  type: 'test'
+  ...
+# Subtest: wagon movement beyond five cells consumes supplies
+ok 48 - wagon movement beyond five cells consumes supplies
+  ---
+  duration_ms: 36.622375
+  type: 'test'
+  ...
+# Subtest: older Changping saves gain logistics without replaying iron-age health migration
+ok 49 - older Changping saves gain logistics without replaying iron-age health migration
+  ---
+  duration_ms: 462.024458
+  type: 'test'
+  ...
+# Subtest: three-node instruction creates physical stationed carts without ground inventories
+ok 50 - three-node instruction creates physical stationed carts without ground inventories
+  ---
+  duration_ms: 463.637375
+  type: 'test'
+  ...
+# Subtest: pause, edit, remove, return retain cargo and other points; old versions do not execute
+ok 51 - pause, edit, remove, return retain cargo and other points; old versions do not execute
+  ---
+  duration_ms: 465.780875
+  type: 'test'
+  ...
+# Subtest: saved plan restores stock, phases and version without duplicate supply; enemy observation hides it
+ok 52 - saved plan restores stock, phases and version without duplicate supply; enemy observation hides it
+  ---
+  duration_ms: 254.388708
+  type: 'test'
+  ...
+# Subtest: normal battles reject transport setup, and existing delegated tasks are not edited
+ok 53 - normal battles reject transport setup, and existing delegated tasks are not edited
+  ---
+  duration_ms: 154.438708
+  type: 'test'
+  ...
+# Subtest: empty vehicles and no purchasing money cannot fabricate freight or vehicles
+ok 54 - empty vehicles and no purchasing money cannot fabricate freight or vehicles
+  ---
+  duration_ms: 152.091375
+  type: 'test'
+  ...
+# Subtest: changing frequency is meaningful at one-round cadence; input validation is atomic
+ok 55 - changing frequency is meaningful at one-round cadence; input validation is atomic
+  ---
+  duration_ms: 174.877333
+  type: 'test'
+  ...
+# Subtest: routing never uses hidden enemy occupancy and transport cannot cross an open sea strip
+ok 56 - routing never uses hidden enemy occupancy and transport cannot cross an open sea strip
+  ---
+  duration_ms: 148.790584
+  type: 'test'
+  ...
+# Subtest: soldiers receive real carried food first, stationary carts retain remaining cargo and do not create a depot
+ok 57 - soldiers receive real carried food first, stationary carts retain remaining cargo and do not create a depot
+  ---
+  duration_ms: 166.028958
+  type: 'test'
+  ...
+# Subtest: paused carts remain physical supply sources, no duplicate top-up and no scout hunger
+ok 58 - paused carts remain physical supply sources, no duplicate top-up and no scout hunger
+  ---
+  duration_ms: 158.62075
+  type: 'test'
+  ...
+# Subtest: legacy ground stock is recovered into a physically present cart, never discarded or issued at a distance
+ok 59 - legacy ground stock is recovered into a physically present cart, never discarded or issued at a distance
+  ---
+  duration_ms: 169.01775
+  type: 'test'
+  ...
+# Subtest: an unavailable return route does not withhold all remaining food from hungry soldiers
+ok 60 - an unavailable return route does not withhold all remaining food from hungry soldiers
+  ---
+  duration_ms: 127.857667
+  type: 'test'
+  ...
+# Subtest: stationed cart retains 119 real rations across turns, ignoring old threshold and reserve
+ok 61 - stationed cart retains 119 real rations across turns, ignoring old threshold and reserve
+  ---
+  duration_ms: 127.359958
+  type: 'test'
+  ...
+# Subtest: stationed cart retains 99 real rations across turns, ignoring old threshold and reserve
+ok 62 - stationed cart retains 99 real rations across turns, ignoring old threshold and reserve
+  ---
+  duration_ms: 127.048916
+  type: 'test'
+  ...
+# Subtest: stationed cart retains 15 real rations across turns, ignoring old threshold and reserve
+ok 63 - stationed cart retains 15 real rations across turns, ignoring old threshold and reserve
+  ---
+  duration_ms: 129.99075
+  type: 'test'
+  ...
+# Subtest: stationed cart retains 5 real rations across turns, ignoring old threshold and reserve
+ok 64 - stationed cart retains 5 real rations across turns, ignoring old threshold and reserve
+  ---
+  duration_ms: 153.292667
+  type: 'test'
+  ...
+# Subtest: stationed cart retains 1 real rations across turns, ignoring old threshold and reserve
+ok 65 - stationed cart retains 1 real rations across turns, ignoring old threshold and reserve
+  ---
+  duration_ms: 147.699084
+  type: 'test'
+  ...
+# Subtest: last fractional ration feeds soldiers, then empty cart returns and really reloads
+ok 66 - last fractional ration feeds soldiers, then empty cart returns and really reloads
+  ---
+  duration_ms: 140.875959
+  type: 'test'
+  ...
+# Subtest: explicit all-return still returns a loaded cart; old automatic early return resumes delivery
+ok 67 - explicit all-return still returns a loaded cart; old automatic early return resumes delivery
+  ---
+  duration_ms: 126.405291
+  type: 'test'
+  ...
+# Subtest: saved nearly empty cart remains stationed after restore, then returns only on zero
+ok 68 - saved nearly empty cart remains stationed after restore, then returns only on zero
+  ---
+  duration_ms: 157.624625
+  type: 'test'
+  ...
+# Subtest: autonomous military AI with 1 rations uses the same empty-only return rule
+ok 69 - autonomous military AI with 1 rations uses the same empty-only return rule
+  ---
+  duration_ms: 127.283292
+  type: 'test'
+  ...
+# Subtest: autonomous military AI with 0 rations uses the same empty-only return rule
+ok 70 - autonomous military AI with 0 rations uses the same empty-only return rule
+  ---
+  duration_ms: 222.424125
+  type: 'test'
+  ...
+# Subtest: adopting a partially loaded forward cart does not first send it back to top up
+ok 71 - adopting a partially loaded forward cart does not first send it back to top up
+  ---
+  duration_ms: 144.471167
+  type: 'test'
+  ...
+# Subtest: 1-hex river: cost, preview and actual entry agree
+ok 72 - 1-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 18.790416
+  type: 'test'
+  ...
+# Subtest: 2-hex river: cost, preview and actual entry agree
+ok 73 - 2-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 4.412
+  type: 'test'
+  ...
+# Subtest: 3-hex river: cost, preview and actual entry agree
+ok 74 - 3-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 4.191167
+  type: 'test'
+  ...
+# Subtest: 4-hex river: cost, preview and actual entry agree
+ok 75 - 4-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 3.56925
+  type: 'test'
+  ...
+# Subtest: 8-hex river: cost, preview and actual entry agree
+ok 76 - 8-hex river: cost, preview and actual entry agree
+  ---
+  duration_ms: 2.631541
+  type: 'test'
+  ...
+# Subtest: two-hex river crosses by legal consecutive turns, with no free leap across water
+ok 77 - two-hex river crosses by legal consecutive turns, with no free leap across water
+  ---
+  duration_ms: 9.940292
+  type: 'test'
+  ...
+# Subtest: light: shallow water matches explicit ford movement
+ok 78 - light: shallow water matches explicit ford movement
+  ---
+  duration_ms: 6.56125
+  type: 'test'
+  ...
+# Subtest: heavy: shallow water matches explicit ford movement
+ok 79 - heavy: shallow water matches explicit ford movement
+  ---
+  duration_ms: 6.720292
+  type: 'test'
+  ...
+# Subtest: cavalry: shallow water matches explicit ford movement
+ok 80 - cavalry: shallow water matches explicit ford movement
+  ---
+  duration_ms: 7.730833
+  type: 'test'
+  ...
+# Subtest: chariot: shallow water matches explicit ford movement
+ok 81 - chariot: shallow water matches explicit ford movement
+  ---
+  duration_ms: 7.157125
+  type: 'test'
+  ...
+# Subtest: warElephant: shallow water matches explicit ford movement
+ok 82 - warElephant: shallow water matches explicit ford movement
+  ---
+  duration_ms: 5.864708
+  type: 'test'
+  ...
+# Subtest: scout: shallow water matches explicit ford movement
+ok 83 - scout: shallow water matches explicit ford movement
+  ---
+  duration_ms: 10.15525
+  type: 'test'
+  ...
+# Subtest: chinaHeavyChariot: shallow water matches explicit ford movement
+ok 84 - chinaHeavyChariot: shallow water matches explicit ford movement
+  ---
+  duration_ms: 6.343459
+  type: 'test'
+  ...
+# Subtest: supplyWagon: shallow water matches explicit ford movement
+ok 85 - supplyWagon: shallow water matches explicit ford movement
+  ---
+  duration_ms: 6.676625
+  type: 'test'
+  ...
+# Subtest: three-plus river still supports existing ford and intact bridge; bridge demolition retains ford
+ok 86 - three-plus river still supports existing ford and intact bridge; bridge demolition retains ford
+  ---
+  duration_ms: 7.373083
+  type: 'test'
+  ...
+# Subtest: sea, map boundary and unknown land never become inferred banks
+ok 87 - sea, map boundary and unknown land never become inferred banks
+  ---
+  duration_ms: 3.371667
+  type: 'test'
+  ...
+# Subtest: new river map/save persists opt-in; old save does not silently gain wading
+ok 88 - new river map/save persists opt-in; old save does not silently gain wading
+  ---
+  duration_ms: 20.728875
+  type: 'test'
+  ...
+# Subtest: AI and delegation path planning crosses shallow river but requires a ford in wide water
+ok 89 - AI and delegation path planning crosses shallow river but requires a ford in wide water
+  ---
+  duration_ms: 33.360583
+  type: 'test'
+  ...
+# Subtest: tile information reports confirmed narrow width without modifying map terrain
+ok 90 - tile information reports confirmed narrow width without modifying map terrain
+  ---
+  duration_ms: 4.308917
+  type: 'test'
+  ...
+# Subtest: three hex axes, both banks and both factions use the same width rule
+ok 91 - three hex axes, both banks and both factions use the same width rule
+  ---
+  duration_ms: 20.284792
+  type: 'test'
+  ...
+# Subtest: editor width changes recalculate immediately, with undo/redo and map roundtrip
+ok 92 - editor width changes recalculate immediately, with undo/redo and map roundtrip
+  ---
+  duration_ms: 19.550208
+  type: 'test'
+  ...
+# Subtest: siegeRam requires artificial ford or bridge even at width 1
+ok 93 - siegeRam requires artificial ford or bridge even at width 1
+  ---
+  duration_ms: 7.603709
+  type: 'test'
+  ...
+# Subtest: siegeRam requires artificial ford or bridge even at width 2
+ok 94 - siegeRam requires artificial ford or bridge even at width 2
+  ---
+  duration_ms: 19.793708
+  type: 'test'
+  ...
+# Subtest: romanOnager requires artificial ford or bridge even at width 1
+ok 95 - romanOnager requires artificial ford or bridge even at width 1
+  ---
+  duration_ms: 17.92875
+  type: 'test'
+  ...
+# Subtest: romanOnager requires artificial ford or bridge even at width 2
+ok 96 - romanOnager requires artificial ford or bridge even at width 2
+  ---
+  duration_ms: 13.661917
+  type: 'test'
+  ...
+# Subtest: siegeTower requires artificial ford or bridge even at width 1
+ok 97 - siegeTower requires artificial ford or bridge even at width 1
+  ---
+  duration_ms: 12.64675
+  type: 'test'
+  ...
+# Subtest: siegeTower requires artificial ford or bridge even at width 2
+ok 98 - siegeTower requires artificial ford or bridge even at width 2
+  ---
+  duration_ms: 20.451708
+  type: 'test'
+  ...
+# Subtest: trojanHorse requires artificial ford or bridge even at width 1
+ok 99 - trojanHorse requires artificial ford or bridge even at width 1
+  ---
+  duration_ms: 7.132583
+  type: 'test'
+  ...
+# Subtest: trojanHorse requires artificial ford or bridge even at width 2
+ok 100 - trojanHorse requires artificial ford or bridge even at width 2
+  ---
+  duration_ms: 6.892209
+  type: 'test'
+  ...
+1..100
+# tests 100
+# suites 0
+# pass 100
+# fail 0
+# cancelled 0
+# skipped 0
+# todo 0
+# duration_ms 5827.810167
