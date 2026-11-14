@@ -1,0 +1,5 @@
+25fb8cbeac826791cfa614bcb97648c766752cc2e873b1d142d21cb434b53c45  HexWargame-v28.61-Windows-x64.zip
+cb82e21ac9b1b5a439d38617b7fb5b16ed9341b169bf7600e081b5e4be1e7b0b  六边形战争-v28.61-macOS.zip
+f70db5c6c8b386a1409e36ea99bdba05c9844cd290b25d70488d2a23b0d00b6f  六边形战争-v28.61-源码.zip
+2dd98331f2b92b89b5a692a7b4bbfdbc63a754416edca069c6a5a95cad0367eb  HexWargame-v28.61-Linux-ARM64.tar.gz
+316228d4b1be3f6149f7c3f345e069309c1252003ebd5f602adbbbf82544ba91  HexWargame-v28.61-Linux-x64.tar.gz
